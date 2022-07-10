@@ -20,14 +20,18 @@
             justify-content: space-between;
             align-items: center;
             padding: 10px 5%;
-            background-color: mediumturquoise;
+            background-color: #48D1CCFF;
+        }
+
+        .nav_links {
+            list-style: none;
         }
     </style>
     <body>
         <header>
             <div class="logo">My website</div>
             <nav>
-                <u1>
+                <u1 class="nav_links">
                     <li><a href='{{ url_for("homePage")}}'>Home</a></li>
                     <li><a href='{{ url_for("secondPage")}}'>Info</a></li>
                 </u1>
