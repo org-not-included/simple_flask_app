@@ -1,2 +1,5 @@
-# Python Virtual Environment files
+# Python virtual environment files
 .venv
+
+# PyCharm local development files
+idea
