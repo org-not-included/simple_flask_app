@@ -1,7 +1,31 @@
 <html>
+    <style>
+        li, a {
+            color: #6666FF;
+            font-family: Arial;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .logo {
+            color: #FF0066;
+            cursor: pointer;
+            font-family: Verdana;
+            font-size: 40px;
+            text-decoration: none;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 5%;
+            background-color: mediumturquoise;
+        }
+    </style>
     <body>
         <header>
-            <div>My website</div>
+            <div class="logo">My website</div>
             <nav>
                 <u1>
                     <li><a href='{{ url_for("homePage")}}'>Home</a></li>
