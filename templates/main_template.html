@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <header>
+            <div>My website</div>
+            <nav>
+                <u1>
+                    <li><a href='{{ url_for("homePage")}}'>Home</a></li>
+                    <li><a href='{{ url_for("secondPage")}}'>Info</a></li>
+                </u1>
+            </nav>
+        </header>
+        {% block content %}
+
+        {% endblock %}
+    </body>
+</html>

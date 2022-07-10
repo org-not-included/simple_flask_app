@@ -1,15 +1,8 @@
-<html>
-    <body>
-        <header>
-            <div>My website</div>
-            <nav>
-                <u1>
-                    <li><a href='{{ url_for("homePage")}}'>Home</a></li>
-                    <li><a href='{{ url_for("secondPage")}}'>Info</a></li>
-                </u1>
-            </nav>
-        </header>
-        <h1> My first app!</h1>
-        <p> {{ name }} is {{ age }} years old.</p>
-    </body>
-</html>
+{% extends "main_template.html" %}
+
+{% block content %}
+
+<h1> My first app!</h1>
+<p> {{ name }} is {{ age }} years old.</p>
+
+{% endblock %}
