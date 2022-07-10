@@ -1,0 +1,9 @@
+{% extends "main_template.html" %}
+
+{% block content %}
+
+<h1>Blogs</h1>
+{% for blog in blogs %}
+    <p><a href='{{ url_for("viewBlog", blog_id=blog.ID)}}'>{{ blog.title }}</a></p>
+{% endfor %}
+{% endblock %}
