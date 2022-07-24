@@ -13,4 +13,4 @@ cd simple_flask_app
 ```
 source setup.sh
 ```
-3. Go to http://127.0.0.1:8000/ in your web-browser.
+3. Go to http://127.0.0.1:4000/ in your web-browser.
