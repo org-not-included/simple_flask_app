@@ -20,4 +20,4 @@ fi
 # Install PyPi packages (python requirements)
 pip3 install -Ir requirements.txt
 
-python3 main.py
+python3 main.py > logs.txt 2>&1 & disown
