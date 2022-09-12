@@ -1,8 +1,7 @@
 # Simple Flask App
   
 ##### An implementation following the [Flask Tutorial series](https://www.youtube.com/playlist?list=PLFtQkpylAzMAKJNId7GBrCG5yIncZivVL), **courtesy of @computingmrh**.
-[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/org-not-included/simple_flask_app/main)](https://www.codefactor.io/repository/github/org-not-included/simple_flask_app)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/org-not-included/simple_flask_app)](https://github.com/org-not-included/simple_flask_app/pulls)
+[![CodeFactor](https://www.codefactor.io/repository/github/org-not-included/simple_flask_app/badge)](https://www.codefactor.io/repository/github/org-not-included/simple_flask_app)[![GitHub pull requests](https://img.shields.io/github/issues-pr/org-not-included/simple_flask_app)](https://github.com/org-not-included/simple_flask_app/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/org-not-included/simple_flask_app)](https://github.com/org-not-included/simple_flask_app/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors/org-not-included/simple_flask_app)](https://github.com/org-not-included/simple_flask_app/graphs/contributors)  
 [![GitHub Release Date](https://img.shields.io/github/release-date/org-not-included/simple_flask_app)](https://github.com/org-not-included/simple_flask_app/releases)
