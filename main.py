@@ -1,5 +1,6 @@
 from flask import *
-from pandas.tseries.holiday import USFederalHolidayCalendar
+import holidays
+from datetime import datetime
 
 app = Flask(__name__, template_folder="templates")
 
@@ -10,8 +11,7 @@ blog_list = [blog1, blog2]
 
 @app.route("/")
 def homePage():
-    holidays = USFederalHolidayCalendar().rules
-    events = [(holiday.name, holiday.month, holiday.day) for holiday in holidays]
+    events = sorted(holidays.US(subdiv='TX', years=datetime.today().year).items())
     return render_template("home.html", events=events)
 
 

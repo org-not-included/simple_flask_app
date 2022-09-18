@@ -3,8 +3,8 @@
 {% block content %}
 
 <h1> My first app!</h1>
-    {% for event, month, day in events %}
-        <p>{{ event }} is on {{ month }}/{{ day }}.</p>
+    {% for date, event in events %}
+        <p>{{ event }} is on {{ date }}.</p>
     {% endfor %}
 
 {% endblock %}
