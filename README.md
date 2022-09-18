@@ -22,8 +22,8 @@ cd simple_flask_app
 ```
 source setup/run_server.sh
 ```
-3. Go to http://127.0.0.1:8000/ in your web-browser.
+3. Go to http://127.0.0.1:4020/ in your web-browser.
 4. Stop the server
 ```
-kill -9 $(lsof -ti:8000)
+kill -9 $(lsof -ti:4020)
 ```
