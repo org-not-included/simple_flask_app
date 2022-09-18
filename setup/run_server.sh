@@ -3,7 +3,7 @@ if [ ! -d ".venv/" ]; then
     echo "Installing virutalenv..."
     python3 -m pip install virtualenv
     echo "Creating .venv/..."
-    python3 -m virtualenv .venv/
+    python3 -m virtualenv -p $(which python3.9) .venv/
 fi
 
 # Activate virtual environment, if one isn't active
@@ -20,4 +20,4 @@ fi
 # Install PyPi packages (python requirements)
 pip3 install -Ir requirements.txt
 
-python3 main.py > logs.txt 2>&1 & disown
+nohup python3 main.py > logs.txt 2>&1 & disown

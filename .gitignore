@@ -1,5 +1,6 @@
-# Python virtual environment files
-.venv
-
-# PyCharm local development files
-idea
+# Local Environemnt
+.venv/
+.idea/
+*.log*
+.cache
+.DS_Store

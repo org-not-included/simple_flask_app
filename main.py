@@ -29,5 +29,5 @@ def viewBlog(blog_id):
             return render_template("view_blog.html", blog=blog)
 
 if __name__ == '__main__':
-    app.debug = True
+    app.debug = False
     app.run(host='127.0.0.1', port=8000)
